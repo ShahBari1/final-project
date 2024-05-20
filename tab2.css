@@ -1,0 +1,242 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #100c08;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+    margin-left: 10px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px  ;
+    text-decoration: none;
+    font-family: garamond;
+    font-size: 1.3em;
+
+  }
+  li a.active {
+    background-color: #f28500;
+    color: white;
+  }
+  li a:hover {
+    background-color: #f28500;
+    color: white;
+  }
+
+  .parent{
+    height: 637.5vh;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(51,1fr);
+    gap:5px;
+  }
+
+#div1{
+  grid-column: 1/17;
+  grid-row: 1/8;
+  background-color: #100c08;
+  background-image: url(https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  margin-bottom: -20px;
+}
+#div2{
+  grid-column: 5/13;
+  grid-row: 1/8;
+  padding: 30px;
+  margin-top: -10px;
+
+}
+.t1{
+
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Garamond;
+  color: aliceblue;
+}
+.t11{
+  text-align: center;
+  font-size: 3em;
+  font-family: garamond;
+  color: aliceblue;
+}
+.t2{
+  text-align: center;
+  font-size: 1.3em;
+  font-family: garamond;
+  color: aliceblue;
+}
+.t4{
+
+  text-align: center;
+  font-size: 2em;
+  font-family: Garamond;
+  font-style: italic;
+  color: aliceblue;
+}
+body{
+  background-color: #282C35;
+
+}
+.bo{
+  border: solid 3px #f28500;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  
+}
+.bor{
+  border: solid 3px #f28500;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  
+}
+.boo{
+  margin-top: 27px;
+}
+#div3{
+  grid-row: 8/9;
+  grid-column: 7/11;
+}
+#div4{
+  grid-row: 9/16;
+  grid-column: 2/9;
+  margin-right: 50px;
+
+}
+#div5{
+  grid-row: 9/16;
+  grid-column: 9/16;
+  background-color: aliceblue;
+  background-image: url(https://images.pexels.com/photos/11182278/pexels-photo-11182278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.t3{
+  font-size: 1.7em;
+  font-family: Garamond;
+  color: #f28500;
+  text-align: center;
+}
+#div6{
+  grid-row: 16/17;
+  grid-column: 2/16;
+}
+#div7{
+  grid-column: 7/11;
+  grid-row: 17/18;
+}
+#div8{
+  grid-row: 18/25;
+  grid-column: 9/16;
+  margin-left: 50px;
+}
+#div9{
+  background-image: url(https://images.aftonbladet-cdn.se/v2/images/905f3eda-fe41-48f9-a5e0-1b285354d9e8?fit=crop&format=auto&h=750&q=50&w=1000&s=8dd4e4aeb8d2673698c87c3a7e875ec0205d408a);
+  background-size: cover;
+  grid-row: 18/25;
+  grid-column: 2/9;
+  
+}
+#div10{
+  grid-row: 25/26;
+  grid-column: 2/16;
+}
+#div11{
+  grid-row: 27/34;
+  grid-column: 2/9;
+  margin-right: 50px;
+}
+#div12{
+  grid-row: 27/34;
+  grid-column: 9/16;
+  background-image: url(https://www.galbani.se/wp-content/uploads/2020/09/le_veritable_tiramisu_par_il_gusto_italiano_0.png);
+  background-size: cover;
+}
+#div13{
+  grid-row: 34/35;
+  grid-column: 2/16;
+}
+#div14{
+  grid-row: 26/27;
+  grid-column: 7/11;
+}
+
+#div15{
+  grid-row: 35/42;
+  grid-column:2/8;
+}
+#div16{
+  grid-row: 35/42;
+  grid-column: 10/16;
+}
+#div17{
+  grid-row: 43/44;
+  grid-column: 2/16;
+}
+#div18{
+  grid-row: 45/52;
+  grid-column: 1/17;
+  background-color:#100c08; ;
+}
+#div19{
+  grid-row:45/48 ;
+  grid-column:8/10 ;
+  background-image: url(logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+#div20{
+  grid-row: 47/51;
+  grid-column: 3/7;
+}
+#div21{
+  grid-column: 11/15;
+  grid-row: 47/51;
+}
+#div22{
+  grid-column: 8/10;
+  grid-row:48/51 ;
+}
+.b2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  cursor: pointer;
+}
+#div23{
+  grid-column: 7/8;
+  grid-row: 51/52;
+  background-image: url(media.png);
+  background-size: cover;
+}
+#div24{
+  grid-column: 8/9;
+  grid-row: 51/52;
+  background-size: cover;
+  background-image: url(twitter.png);
+}
+#div25{
+  grid-column: 9/10;
+  grid-row: 51/52;
+  background-size: cover;
+  background-image: url(facebook.png);
+}
+#div26{
+  grid-column: 10/11;
+  grid-row: 51/52;
+  background-size: cover;
+  background-image: url(youtube.png.png);
+}
+
+

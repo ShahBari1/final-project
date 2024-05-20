@@ -1,0 +1,236 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #100c08;
+    width: 100%;
+  }
+  body{
+    background-color: #282C35;
+  
+  }
+  
+  li {
+    float: right;
+    margin-left: 10px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px  ;
+    text-decoration: none;
+    font-family: garamond;
+    font-size: 1.3em;
+
+  }
+  li a.active {
+    background-color: #f28500;
+    color: white;
+  }
+  li a:hover {
+    background-color: #f28500;
+    color: white;
+  }
+  .t1{
+
+    text-align: center;
+    font-size: 2em;
+    font-family: Garamond;
+    color: aliceblue;
+  }
+  .t2{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: garamond;
+    color: aliceblue;
+  }
+.t6{
+  text-align: center;
+  font-size: 1.4em;
+  font-family: garamond;
+  color: aliceblue;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+#div1{
+    background-image: url(https://t4.ftcdn.net/jpg/06/74/88/07/360_F_674880724_dmpQ3im2YiIGbFFz2y6VcLR4KjJggnFt.jpg);
+    background-size: cover;
+    height: 30vh;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+.bo{
+    margin: 27px;
+    border: solid #f28500;
+  }
+
+#div2{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.txt{
+    text-align: center;
+    font-size: 3em;
+    font-family: Garamond;
+    color: aliceblue;
+}
+#div3{
+    height: 325px;
+    width: 325px;
+}
+#div4{
+    height: 325px;
+    width: 325px;
+}
+#div5{
+    height: 325px;
+    width: 325px;
+}
+.parent{
+  display: flex;
+  padding-top: 450px;
+  justify-content: space-around;
+}
+.t3{
+  text-align: center;
+  font-size: 2em;
+  font-family: Garamond;
+  color: aliceblue;
+}
+.t4{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Garamond;
+  color: #f28500;
+}
+.t5{
+  text-align: center;
+  font-size: 3em;
+  font-family: Garamond;
+  color: aliceblue;
+}
+.parent2{
+  display: flex;
+  justify-content: space-evenly;
+}
+#div6{
+  height: 325px;
+  width: 518px;
+
+
+
+}
+#div7{
+  background-color: bisque;
+  height: 325px;
+  width: 518px;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ6ZDBhYjAwOWNtbnA1NTRjZ3UwcjVxeGE4OWpwMXFlZW5kbHl1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bhHdL7eQuA85sCgHAX/giphy.gif);
+  background-size: cover;
+  background-repeat: repeat;
+ 
+  
+ 
+  
+}
+.parent3{
+  display: flex;
+  justify-content: space-evenly;
+}
+#div8{
+  background-color: bisque;
+  height: 325px;
+  width: 518px;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmQxZ2Y2dTNhc2czZGpxOGRrcHRlZmJqbWM4aHBjbzF4dmhzbXhyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqWxRScWXgSsCqNRh6/giphy.gif);
+  background-size: cover;
+  background-repeat: repeat;
+
+ 
+  
+}
+#div9{
+  height: 325px;
+  width: 518px;
+
+
+}
+.bor{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 27px;
+}
+.parent4{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.borr{
+  border: solid #f28500;
+  margin-top: -30px;
+}
+.parent5{
+  display: grid;
+  height: 508.2px;
+  width: 100%;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(7,1fr);
+  gap: 5px;
+  background-color: #100c08;
+}
+#div10{
+  grid-column: 8/10;
+  grid-row: 1/4;
+  background-image: url(logo.png);
+  background-size: cover;
+  background-position: center;
+}
+#div11{
+  grid-column: 3/7;
+  grid-row: 2/6;
+}
+#div12{
+  grid-column: 11/15;
+  grid-row: 2/6;
+}
+#div13{
+  grid-column: 8/10;
+  grid-row: 4/7;
+}
+
+#div14{
+  grid-column: 7/8;
+  grid-row: 7/8;
+  background-image: url(media.png);
+  background-size: cover;
+}
+.b2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  cursor: pointer;
+}
+#div15{
+  grid-column: 8/9;
+  grid-row: 7/8;
+  background-size: cover;
+  background-image: url(twitter.png);
+}
+#div16{
+  grid-column: 9/10;
+  grid-row: 7/8;
+  background-size: cover;
+  background-image: url(facebook.png);
+}
+#div17{
+  grid-column: 10/11;
+  grid-row: 7/8;
+  background-size: cover;
+  background-image: url(youtube.png.png);
+}
